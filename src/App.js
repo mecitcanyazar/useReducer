@@ -13,5 +13,4 @@ function App() {
     </div>
   )
 }
-console.log("deneme");
 export default App
