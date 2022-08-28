@@ -1,6 +1,6 @@
 {
-  "homepage": "http://mecitcanyazar.github.io/react-hook-starter-useState-array",
-  "name": "react-hook-starter",
+  "homepage": "http://mecitcanyazar.github.io/react-hook-starter-usestate-array",
+  "name": "react-hook-starter-usestate-array",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
