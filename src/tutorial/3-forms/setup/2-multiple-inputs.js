@@ -21,7 +21,9 @@ const handleChange = (e) => {
 const handleSubmit = (e) => {
   e.preventDefault()
   if(person.name && person.email && person.age){
-    
+    const newPerson = {...person,id:new Date().getTime().toString()}
+    setPeople([...people,newPerson])
+    setPerson({name:"",email:"",age:""})  
   }
 }
 
@@ -43,8 +45,8 @@ const handleSubmit = (e) => {
   // }
   return (
     <>
-      <article>
-        <form className='form' >
+      <article className='form'>
+        <form >
           <div className='form-control'>
             <label htmlFor='name'>Name :</label>
             <input
@@ -78,11 +80,12 @@ const handleSubmit = (e) => {
           <button type='submit' onClick={handleSubmit}>Kişi ekle</button>
         </form>
         {people.map((person, index) => {
-          const { id, name, email } = person
+          const { id, name, email,age } = person
           return (
             <div className='item' key={id}>
               <h4>{name}</h4>
               <p>{email}</p>
+              <p>{age}</p>
             </div>
           )
         })}

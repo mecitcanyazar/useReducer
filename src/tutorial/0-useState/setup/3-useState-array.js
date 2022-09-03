@@ -8,6 +8,7 @@ const UseStateArray = () => {
   const removeItem = (id) => {
      setPeople((oldPeople)=>{
       let newPeople = oldPeople.filter((person) => person.id !==id)
+      // Sadece kaldırmak istediğim elemanı kaldırı.=== deseydim o eleman dışındaki diğer elemanları kaldıracaktı.
       return newPeople
      })
   }
