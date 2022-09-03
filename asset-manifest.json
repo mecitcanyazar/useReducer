@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/useReducer/static/css/main.fa3f6c03.css",
+    "main.js": "/useReducer/static/js/main.ffaa7be1.js",
+    "index.html": "/useReducer/index.html",
+    "main.fa3f6c03.css.map": "/useReducer/static/css/main.fa3f6c03.css.map",
+    "main.ffaa7be1.js.map": "/useReducer/static/js/main.ffaa7be1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fa3f6c03.css",
+    "static/js/main.ffaa7be1.js"
+  ]
+}
